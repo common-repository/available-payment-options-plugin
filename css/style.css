@@ -1,0 +1,142 @@
+#rmwp-ci .req{ color: red; font-weight: bold; padding-left: 5px; }
+
+#rmwp-ci .clearfix:after{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    font-size: 0;
+}
+#rmwp-ci input[type='text'], #rmwp-ci select{ width: 200px; }
+#rmwp-ci .block{ padding:10px 10px 0px 10px; margin-bottom: 10px; }
+#rmwp-ci fieldset{ 
+
+    background-color: #EFEFEF;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 400px;    
+    margin-right: 20px;
+}
+#rmwp-ci fieldset legend{
+
+    background-color: Teal;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    font-weight: bold;
+    padding: 3px 15px;
+
+}
+#rmwp-ci .block label{ display: block; font-weight: bold; }
+#rmwp-ci .block label.error{ color: red; font-weight: normal;}                
+#rmwp-ci fieldset.rmwp-hours label{ display: inline-block; width: 125px;}                
+#rmwp-ci .rmwp-name{ width: 300px !important; border-color: #666;  }  
+#rmwp-ci .panel{
+    background-color: #EFEFEF; 
+    border: 1px solid #ccc;
+    border-width:1px 0px 1px 0px;
+    padding: 5px; 
+    float: left;
+    width: 855px;
+    text-align: right;
+}         
+
+
+
+#images-tab .thumbnail{
+    display: inline-block;
+    margin-bottom: 6px;  
+    text-align: center;
+    cursor: pointer;
+}
+            
+#tab-size-32 .thumbnail{ width: 110px; }
+#images-tab .thumbnail:hover{ background-color: #efefef; border:1px solid #ccc; }
+
+#preview{ display: inline-block; }
+#preview ul {
+    background-color: #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    list-style: none outside none;
+    padding: 5px;
+    margin: 0;
+}
+#preview ul li {
+    float: left;
+    margin-bottom: 0;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#preview ul li.last {
+    margin-right: 0;
+}
+#preview h3 {
+    margin-bottom: 5px;
+    text-align: center;
+}
+.preview-wrap{ border: 1px dashed #333; padding: 5px; text-align: center;}
+            
+.form-search input, .form-inline input, .form-horizontal input, .form-search textarea, .form-inline textarea, .form-horizontal textarea, .form-search select, .form-inline select, .form-horizontal select, .form-search .help-inline, .form-inline .help-inline, .form-horizontal .help-inline, .form-search .uneditable-input, .form-inline .uneditable-input, .form-horizontal .uneditable-input, .form-search .input-prepend, .form-inline .input-prepend, .form-horizontal .input-prepend, .form-search .input-append, .form-inline .input-append, .form-horizontal .input-append {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+
+#gridSystem select, 
+#gridSystem input[type="text"]{
+    height: 26px;
+}
+#gridSystem label, #gridSystem input{ line-height: 26px; }
+#gridSystem .help-block{ display: inline-block; color: #588ebc; }
+#gridSystem .form-horizontal .control-label{ font-weight: bold; margin-bottom: 0; padding-top: 0;}
+body.wp-admin .fade{ opacity: 1;}
+           
+#gridSystem legend{ margin-bottom: 10px; }
+#gridSystem .tab-content{ height: 300px;}
+#gridSystem .preview-row{ margin-bottom: 20px;}
+#gridSystem .save-panel{ text-align: center; }
+#apo-save{ width: 95px; }
+
+/** Fixing problem causef by Twitter Bootstrap*/
+.wp-submenu ul{
+    list-style: none outside none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#gridSystem .click-to-rem-label{ float: right; font-size: 14px; color: #1982d1; }
+
+#gridSystem .gzalien-ads{
+    
+    background: #87e0fd;
+    background: -moz-linear-gradient(top,  #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87e0fd), color-stop(40%,#53cbf1), color-stop(100%,#05abe0));
+    background: -webkit-linear-gradient(top,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
+    background: -o-linear-gradient(top,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
+    background: -ms-linear-gradient(top,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
+    background: linear-gradient(to bottom,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 );
+
+    border-radius: 10px !important;
+    padding: 6px;
+}
+
+#gridSystem .donate{
+    
+    background: #e570e7;
+    background: -moz-linear-gradient(top,  #e570e7 0%, #c85ec7 47%, #a849a3 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e570e7), color-stop(47%,#c85ec7), color-stop(100%,#a849a3));
+    background: -webkit-linear-gradient(top,  #e570e7 0%,#c85ec7 47%,#a849a3 100%);
+    background: -o-linear-gradient(top,  #e570e7 0%,#c85ec7 47%,#a849a3 100%);
+    background: -ms-linear-gradient(top,  #e570e7 0%,#c85ec7 47%,#a849a3 100%);
+    background: linear-gradient(to bottom,  #e570e7 0%,#c85ec7 47%,#a849a3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e570e7', endColorstr='#a849a3',GradientType=0 );
+    border-radius: 10px !important;
+    padding: 6px;
+}
+
+#gridSystem .donate h3{  color: white; font-size: 16px; text-align:center; }
+
+#gridSystem .donate form{ text-align: center; }
+#gridSystem .donate input{ width: auto; }
